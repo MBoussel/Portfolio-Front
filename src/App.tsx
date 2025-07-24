@@ -7,7 +7,7 @@ function App() {
  const { theme } = useDarkMode();
 
   return (
-    <main className={theme === "dark" ? "light" : "dark"}>
+    <main className={theme === "dark" ? "dark" : "light"}>
       <Navbar/>
   <Outlet/>
     </main>
