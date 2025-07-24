@@ -5,3 +5,6 @@ body,
   padding: 0;
   height: 100%;
 }
+.dark,.light {
+      height: 100dvh;
+}

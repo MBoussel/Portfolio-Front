@@ -7,7 +7,7 @@ import { ThemeProvider } from './contexts/ThemeContext.tsx';
 import CVPage from './pages/CVPage.tsx';
 import PassionsPage from './pages/PassionsPage.tsx';
 import SkillsPage from './pages/SkillsPage.tsx';
-import RealisationsPage from './pages/RealisationsPage.tsx';
+import ProjectsPage from './pages/ProjectsPage.tsx';
 
 
 const router = createBrowserRouter([
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
         element: <SkillsPage />,
       },
       {
-        path: "/realisations",
-        element: <RealisationsPage />,
+        path: "/projects",
+        element: <ProjectsPage />,
       },
         {
         path: "*",
