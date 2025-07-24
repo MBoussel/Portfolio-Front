@@ -1,0 +1,10 @@
+h1,h2{
+  color: #EAC885;
+  font-size: 4rem;
+
+}
+.light{
+  h1,h2{
+  color: #020202;
+}
+}

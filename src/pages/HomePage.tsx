@@ -1,12 +1,12 @@
-import DarkModeButton from "../components/DarkModeButton";
-import "../assets/styles/homePage.css";
-import ButtonLanguage from "../components/ButtonLanguage";
+
+import "../styles/homePage.css";
+
 export default function HomePage() { 
     return (
         <div>
-            <h1>Hello HomePage</h1>
-            <DarkModeButton/>
-            <ButtonLanguage/>
+           <h1>&lt;Matthieu /&gt;</h1> 
+           <h2>&lt;Boussel /&gt;</h2>
+           
         </div>
     )
 }

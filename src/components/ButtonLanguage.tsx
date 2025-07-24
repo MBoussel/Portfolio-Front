@@ -1,4 +1,4 @@
-import "../assets/styles/buttonlanguage.css";
+import "../styles/buttonlanguage.css";
 import EnglishFlag from "../assets/pictures/icons8-anglais-96.png";
 
 
