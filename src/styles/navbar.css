@@ -36,8 +36,8 @@ flex-wrap: wrap;
 @media (min-width: 768px) {
   .navbardiv {
     display: flex;
-    padding: 2.5rem;
-    padding-top: 8em;
+    padding: 3.5rem;
+    padding-top: 7em;
     flex-wrap: wrap; 
     justify-content: end;
   }
@@ -57,6 +57,6 @@ flex-wrap: wrap;
   gap: 1em;
 }
   .nav-item span {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
