@@ -1,6 +1,6 @@
 import { useDarkMode } from "../contexts/ThemeContext";
-import Switch from "../assets/pictures/icons8-interrupteur-96.png";
-import "../assets/styles/darkModeButton.css";
+import Switch from "../assets/pictures/interrupteur.png";
+import "../styles/darkModeButton.css";
 
 export default function DarkModeButton() {
   const { theme, toggleTheme } = useDarkMode();
