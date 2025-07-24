@@ -37,7 +37,7 @@ flex-wrap: wrap;
   .navbardiv {
     display: flex;
     padding: 3.5rem;
-    padding-top: 7em;
+    padding-top: 5em;
     flex-wrap: wrap; 
     justify-content: end;
   }
