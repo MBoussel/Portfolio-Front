@@ -3,7 +3,8 @@
     padding-top: 0;
 font-size: 2em;}
 .projectSwiper {
-  width: 70%;
+  width: 90%;
+  height: 25em;
 
 }
 
@@ -24,13 +25,16 @@ font-size: 2em;}
   object-fit: cover;
   border-radius: 20px;
 }
-@media (min-width: 768px) {.title-project{position: fixed;
+
+@media (min-width: 768px) {
+.title-project{position: fixed;
 top: 1em;
 left: 1em;
 font-size: 3em;}
 
 .projectSwiper {
-  width: 60%;
+  width: 70%;
+height: 30em;
 
 }
 }
