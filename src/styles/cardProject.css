@@ -1,0 +1,101 @@
+.project-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 0.5em;
+  width: 100%;                 
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.dark{
+.project-card {
+    background-image: url("../assets/pictures/background-clair.png");
+}}
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+  color:black;
+  font-weight: 700;
+}
+
+.project-description {
+  font-size: 1em;
+  color:black;
+  margin-bottom: 0.5em;
+  min-height: 3em; 
+}
+
+.project-image {  
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.project-image-contenaire{
+     width: 70%;
+  height: 8em; 
+  overflow: hidden;
+  border-radius: 0.9375em; 
+  box-shadow: 0 0.25em 0.625em rgba(0,0,0,0.1); 
+  margin-bottom: 0.8em;
+}
+.project-link {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  background-color: #EAC885;
+  color: black;
+   font-family: "itim", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #eea513;
+}
+
+.project-skills {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-skills i {
+  font-size: 2.5em;
+}
+
+.project-skills i.colored {
+  color: inherit; /* laisse Devicon gérer la couleur */
+}
+
+.project-skills i:hover {
+  color:  #eea513;
+}
+@media (min-width: 768px) {
+
+    .project-card {
+  padding: 1em;
+  width: 100%;                 
+}
+.project-image {
+ height: 10em;
+
+}
+.project-image-contenaire{
+     width: 100%;
+  height: 14em; }
+}
