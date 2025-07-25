@@ -3,6 +3,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 2em 0em;
+padding-bottom: 0;
 font-family: monospace;
 color: #EAC885;
 font-weight: bold;

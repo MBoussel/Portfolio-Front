@@ -1,0 +1,36 @@
+.title-project{padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0;
+font-size: 2em;}
+.projectSwiper {
+  width: 70%;
+
+}
+
+.projectSwiper .swiper-slide {
+  background: #f1f1f1;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.projectSwiper .swiper-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {.title-project{position: fixed;
+top: 1em;
+left: 1em;
+font-size: 3em;}
+
+.projectSwiper {
+  width: 60%;
+
+}
+}

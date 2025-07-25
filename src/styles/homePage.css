@@ -1,6 +1,6 @@
 *{  margin: 0;
   padding: 0;}
-h1,h2,span{
+h1,h2,h3,span{
   color: #EAC885;
   font-size: 2rem;
 }
@@ -8,7 +8,7 @@ h1,h2{
   padding-top: 2.5em;
 }
 .light{
-  h1,h2,span{
+  h1,h2,h3,span{
   color: #020202;
 }
 }
